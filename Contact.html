@@ -1,0 +1,220 @@
+<!-- Muhammad Zikrullah Rehman, 416430, BSCS-12-C, Web Engineering, Lab 3, 20th Feb 2024-->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Portfolio - Contact</title>
+
+    
+    <style>
+    
+            
+        .banner{
+            background: linear-gradient(90deg,#eb9d30,#c736eb);
+            padding-top: 10px;
+            font-family: 'Montserrat Light';
+            padding-bottom: 10px;
+            padding-left: 60px;  
+            z-index: 1;
+            margin: -10px;
+        }
+
+        .banner h1{
+            color: #f2e8f4;
+            text-shadow: 0px 0px 7px rgba(121, 61, 108, 0.9);
+        }
+
+        .banner h2{
+            color: #f9d7f4;
+            text-shadow: 0px 0px 5px rgba(121, 61, 108, 0.9)
+        }
+
+        body {
+          background-color: #24242C; /* Darker, more bluish background */
+          color: #f5f5f5; /* Slightly brighter text for better contrast */
+          font-family: 'Montserrat Light'; /* Include Helvetica Neue for a more modern look */
+        }
+
+        .text{
+            padding-top: 10px;
+            margin-left: 30px;
+            margin-right: 20px;
+            z-index: 1;
+        }
+
+        h1, h2, h3 {
+          color: #ab47bc; /* Richer purple for headings */
+          font-family: 'Montserrat Light';
+          font-weight: bold; /* Make headings bolder for emphasis */
+          text-shadow: 5px 5px 7px rgba(32, 18, 29, 0.4); /* Subtle shadow for depth */
+        }
+        
+        a {
+          color: #ce93d8; /* Lighter pinkish purple for links */
+          text-decoration: none; /* Remove underline from links */
+        }
+        
+        a:hover {
+          color: #ab47bc; /* Change link color to heading color on hover */
+          text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4); /* More prominent shadow on hover */
+        }
+
+        .sidenav {
+            height: 100vh; /* Full viewport height */
+            width: 250px; /* Width of the sidebar */
+            position: fixed; /* Fixed positioning for better layout */
+            z-index: 2; /* Ensure the sidebar stays on top of content */
+            top: 0; /* Start the sidebar from the top */
+            left: -250px; /* Hide the sidebar initially */
+            transition: all 0.3s ease-in-out; /* Smooth transition on hover */
+            background-color: #3c3057; /* Darker background for the sidebar */
+            
+
+
+            }
+      
+          .sidenav:hover {
+            left: 0px; /* Show the sidebar on hover */
+            box-shadow: 0px 0px 20px 10px rgba(0,0,0,.5);;
+          }
+      
+          .sidenav:not(:hover) {
+            left: -200px; /* Hide the sidebar when not hovered over */
+          }
+
+        .sidenav h1{
+            color: #421058df; /* Richer purple for headings */
+            display: block; /* Display links as block elements for vertical stacking */
+            background-color: #f5f5f5;
+            text-shadow: none;
+            font-family: "Montserrat Regular";
+            padding: 54.5px;
+            padding-left: 30px;
+            margin-left: 10px;
+            text-align: center;
+        }
+
+        .sidenav a {
+            color: #f5f5f5; /* Inherit text color from body */
+            display: block; /* Display links as block elements for vertical stacking */
+            text-decoration: none; /* Remove underline from links */
+
+            padding: 20px;
+            padding-left: 30px;
+            margin-left: -25px;
+        }
+    
+        .sidenav a:hover {
+            color: #ab47bc; /* Change link color to heading color on hover */
+            background: #310d3779;
+            box-shadow: 0px 0px 10px 1px rgba(239, 88, 253, 0.132);
+        }
+
+        .circle{
+            height: 12px;
+            width: 12px;
+            background-color: #f2e8f4;
+            border-radius: 50%;
+            z-index: 3;
+        }
+
+        .rectangle{
+            height: 2.5px;
+            width: 22px;
+            background-color: #3c3057;
+            border-radius: 4px;
+            z-index: 3;
+        }
+
+
+        .sidenav .circle{
+            box-shadow: 0px 0px 10px 1px rgba(239, 88, 253, 0.132);
+            display: block;
+        }
+
+        .sidenav .rectangle{
+            display: block;
+        }
+    
+        </style>
+</head>
+
+<body style="margin-left: 20px;">
+
+    <div class="banner">
+    <h1>Zikrullah Rehman</h1>
+
+    <h2>Computer Scientist, Graphic Designer:</h2>
+    </div>
+        
+    <div class="sidenav" style="margin-left: -19px;">
+        
+        <div class="rectangle" style="position: fixed; margin-left: 224px; margin-top: 7px"></div>
+        <div class="rectangle" style="position: fixed; margin-left: 224px; margin-top: 12px"></div>
+        <div class="rectangle" style="position: fixed; margin-left: 224px; margin-top: 17px"></div>
+        
+        <h1 style="margin-top: 0px; text-align:center;">Contact</h1>
+
+        <ul style="list-style-type:none; margin-top: -20px">
+          <li><a href="Home.html">Home</a></li>
+          <li><a href="Hobbies.html">Hobbies</a></li>
+          <li><a href="PersonalSkills.html">Personal Skills</a></li>
+          <li><a href="Gallery.html">Gallery</a></li>
+        </ul>
+
+        <div class="circle" style="margin-left: 228px; margin-top: 290px;position: fixed;"></div>
+        <div class="circle" style="margin-left: 228px; margin-top: 270px;position: fixed;"></div>
+        <div class="circle" style="margin-left: 228px; margin-top: 250px;position: fixed;"></div>
+        
+
+    </div>
+
+
+    <div class="text">
+    
+    <h3>Contact Me:</h3>
+
+    <table border = 1 style="width: 100%; border-style:groove; border-collapse: collapse;">
+        <tr>
+            <th style="padding: 20px;" colspan = 2>Platform</th>
+            <th>Details</th>
+            <th colspan = 4>Description</th>
+        </tr>
+
+        <tr>
+            <td style="padding: 20px" colspan = 2>Instagram</td>
+            <td style="padding: 20px;">@fake.fake</td>
+            <td style="padding: 20px;" colspan = 4>So you can also see my photography work.</td>
+        </tr>
+
+        <tr>
+            <td style="padding: 20px" colspan = 2>Behance</td>
+            <td style="padding: 20px;">aaaaaaaa</td>
+            <td style="padding: 20px;" colspan = 4>So you can also see my graphic design work.</td>
+        </tr>
+
+        <tr>
+            <td style="padding: 20px" colspan = 2>Github</td>
+            <td style="padding: 20px;">bbbbb</td>
+            <td style="padding: 20px;" colspan = 4>So you can also see my coding projects.</td>
+        </tr>
+        
+        <tr>
+            <td style="padding: 20px" colspan = 2>Phone</td>
+            <td style="padding: 20px;">98851314</td>
+            <td style="padding: 20px;" colspan = 4>For direct contact.</td>
+        </tr>
+        
+        <tr>
+            <td style="padding: 20px" colspan = 2>Email</td>
+            <td style="padding: 20px;">abc@def.com</td>
+            <td style="padding: 20px;" colspan = 4>For developing professional correspondence.</td>
+        </tr>
+
+    </table>
+   
+    <p>Copyright @Zikrullah.Rehman</p>
+
+    </div>
+
+</body>
+</html>
